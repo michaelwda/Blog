@@ -1,13 +1,13 @@
 ---
 title: '.NET Core Message Pump'
 author: 'Michael Davis'
-date: '2016-04-27'
+date: '2018-04-03'
 # hero_image: ../static/.jpg
 ---
 
 I'm writing a cross-platform mouse without borders clone right now. Basically a .NET version of Synergy. 
 
-Tech stack: .NET Core, SignalR
+**Tech stack: .NET Core, SignalR**
 
 I ran into an issue with my windows hooks not working when running inside a .NET Core console. This is because if you don't include `Application.Run(new ApplicationContext())`, there is no Windows message pump. Without a message pump, your hooks won't receive anything.
 
