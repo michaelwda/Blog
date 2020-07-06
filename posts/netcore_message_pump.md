@@ -1,8 +1,8 @@
 ---
 title: '.NET Core Message Pump'
 author: 'Michael Davis'
-date: '2020-04-27'
-# hero_image: ../static/milkovi-seattle-unsplash.jpg
+date: '2016-04-27'
+# hero_image: ../static/.jpg
 ---
 
 I'm writing a cross-platform mouse without borders clone right now. Basically a .NET version of Synergy. 

@@ -4,28 +4,14 @@ const About = ({ title, description, ...props }) => {
   return (
     <>
       <Layout pageTitle={`${title} | About`} description={description}>
-        <h1 className="title">Welcome to this demo blog!</h1>
-
+        <h1 className="title">About Me</h1>
+        <img src="/static/me.jpg" alt="me" /> 
         <p className="description">
-          This is a simple blog built with Next, easily deployable on{' '}
-          <a href="https://url.netlify.com/r1j6ybSYU">Netlify</a>.
+        
+          I'm a software developer and consultant living in Cary, North Carolina. I work for a small consulting firm based out of Clemmons, North Carolina. We have clients all over the state. 
         </p>
-
         <p>
-          You can check out the{' '}
-          <a href="https://github.com/cassidoo/next-netlify-blog-starter">
-            repo here.
-          </a>{' '}
-          If you'd like to build it yourself,{' '}
-          <a href="https://url.netlify.com/ByVW0bCF8">
-            here is a tutorial on how to do so
-          </a>
-          !
-        </p>
-
-        <p>
-          This project includes a basic layout and header, base styles, dynamic
-          routing with getStaticPaths, and posts saved as Markdown.
+        I've had amazing opportunities to work with different technologies and business problems since getting started in 2009. My goals for this site are simply to share interesting things I run into or do.
         </p>
       </Layout>
     </>
