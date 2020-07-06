@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Header from '@components/Header'
+import Footer from '@components/Footer'
 import globalStyles from '@styles/global.js'
 
 export default function Layout({ children, pageTitle, description, ...props }) {
@@ -17,13 +18,11 @@ export default function Layout({ children, pageTitle, description, ...props }) {
         <style jsx global>
             {globalStyles}
         </style>
-        <section className="layout">
-            <Header />
-            <div className="content">{children}</div>
-        </section>
-        <footer>
-            Michael Davis {new Date().getFullYear()}
-        </footer>
+  
+        <Header />
+        <div className="content">{children}</div>
+      
+        <Footer />
     </>
   )
 }

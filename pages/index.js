@@ -19,7 +19,7 @@ const Home = ({title, description, posts, ...props}) => {
         .title {
           margin: 1rem auto;
           font-size: 3rem;
-        }
+        }         
       `}</style>
     </>
   )
