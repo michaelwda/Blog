@@ -1,26 +1,20 @@
 import Layout from '@components/Layout';
 import PostList from '@components/PostList';
-import getPosts from '@utils/getPosts'
+import getPosts from '@utils/getPosts';
 
 const Home = ({title, description, posts, ...props}) => {
   return (
     <>
       <Layout pageTitle={title} description={description}>
-        <h1 className="title">{title}</h1>
-        
+        <h1 className="title">Michael Davis</h1>
+        <p className="subtitle">Software Engineer and Consultant</p>
         <p className="description">
           {description}
         </p>
         <main>
           <PostList posts={posts} />
-        </main>         
+        </main>
       </Layout>
-      <style jsx>{`
-        .title {
-          margin: 1rem auto;
-          font-size: 3rem;
-        }         
-      `}</style>
     </>
   )
 }

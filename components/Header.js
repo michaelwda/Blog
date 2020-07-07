@@ -15,7 +15,7 @@ export default function Header() {
           <a>Projects</a>
         </Link>
       </nav>
-    </header>    
+    </header>
     <style jsx>{`
          header {
           width: 100%;
@@ -32,7 +32,7 @@ export default function Header() {
           font-size: 1.3rem;
         }
         nav a {
-          margin-right: 50px;
+          margin-right: 30px;
           color: rgb(83, 126, 162);
           text-decoration: none;
         }

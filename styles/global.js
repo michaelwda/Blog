@@ -35,13 +35,22 @@ export default css.global
         color: rgb(83, 126, 162);
     }
     .content {
-        padding: 2rem 20px;
+        padding: 1rem;
         flex: 1;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    
+    .title {
+        font-size: 2rem;
+        margin: 0;
+    }
+    .subtitle {
+    font-size: 1rem;
+    font-style: italic;
+    margin:0;
+    padding: 0;
+    }
 
 `

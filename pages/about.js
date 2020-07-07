@@ -5,15 +5,15 @@ const About = ({ title, description, ...props }) => {
     <>
       <Layout pageTitle={`${title} | About`} description={description}>
         <h1 className="title">About Me</h1>
-        <img src="/static/me.jpg" alt="me" /> 
-        
+        <img className="profilePhoto" src="/static/me.jpg" alt="me" />
+
         <article>
-          I'm a software developer and consultant living in Cary, North Carolina. I work for a small consulting firm based out of Clemmons, North Carolina. We have clients all over the state. 
+          I'm a software developer and consultant living in Cary, North Carolina. I work for a small consulting firm based out of Clemmons, North Carolina. We have clients all over the state.
           As a software consultant for a local firm, I have had the opportunity to work with different technologies and to solve a variety of unique problems. Working directly with clients has allowed me to take on multiple roles within the project life cycle including, but not limited to, business problem analysis, system design, project management, and full-stack software implementation.
 
           <h2>Skills</h2>
           <i>I would consider these primary skills, but it's not unusual for me to navigate a wide-variety of code. This would include PHP, Bash, Python, and even RPG. </i>
-          
+
             <table>
               <tbody>
               <tr>
@@ -35,7 +35,7 @@ const About = ({ title, description, ...props }) => {
                 <td className='skillCategory'>Other</td><td>TDD, CI/CD, Git</td>
               </tr>
               </tbody>
-            </table>       
+            </table>
         </article>
       </Layout>
       <style jsx>{`
@@ -43,12 +43,16 @@ const About = ({ title, description, ...props }) => {
           margin-top: 20px;
           width: 100%;
           max-width: 1200px;
-        } 
-        td {         
+        }
+        td {
           padding:5px;
-        }       
+        }
         .skillCategory {
           font-weight: 800;
+        }
+        .profilePhoto{
+          border-radius: 50%;
+          height: 250px;
         }
       `}</style>
     </>
