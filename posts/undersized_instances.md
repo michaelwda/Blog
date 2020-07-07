@@ -2,6 +2,7 @@
 title: 'Undersized Instances'
 author: 'Michael Davis'
 date: '2019-01-09'
+published: true
 # hero_image: ../static/.jpg
 ---
 

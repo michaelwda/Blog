@@ -2,6 +2,7 @@
 title: 'Proper Date Formatting with Thymeleaf and Spring'
 author: 'Michael Davis'
 date: '2018-06-05'
+published: true
 # hero_image: ../static/.jpg
 ---
 

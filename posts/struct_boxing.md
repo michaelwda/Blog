@@ -2,6 +2,7 @@
 title: 'CLR Generics and Struct Boxing'
 author: 'Michael Davis'
 date: '2018-06-19'
+published: true
 # hero_image: ../static/.jpg
 ---
 

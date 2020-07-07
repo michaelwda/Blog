@@ -2,6 +2,7 @@
 title: 'Successful Launch'
 author: 'Michael Davis'
 date: '2018-10-18'
+published: true
 # hero_image: ../static/.jpg
 ---
 

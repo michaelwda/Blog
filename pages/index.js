@@ -7,7 +7,7 @@ const Home = ({title, description, posts, ...props}) => {
     <>
       <Layout pageTitle={title} description={description}>
         <h1 className="title">{title}</h1>
-
+        
         <p className="description">
           {description}
         </p>

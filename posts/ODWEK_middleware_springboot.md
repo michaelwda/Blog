@@ -2,6 +2,7 @@
 title: 'ODWEK Middleware with Spring Boot'
 author: 'Michael Davis'
 date: '2018-06-07'
+published: true
 # hero_image: ../static/.jpg
 ---
 Recently a client was upgrading to CMOD V10.1 on the iSeries and we noticed that the CGI/Servlet support has been removed, after being deprecated in V9.0

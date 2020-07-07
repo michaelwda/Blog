@@ -9,7 +9,7 @@ export default class CodeBlock extends React.PureComponent {
   }
 
   static defaultProps = {
-    language: null,
+    language: 'null',
   }
 
   render() {

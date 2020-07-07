@@ -2,6 +2,7 @@
 title: 'Late Adopter'
 author: 'Michael Davis'
 date: '2018-01-02'
+published: true
 # hero_image: ../static/.jpg
 ---
 I think being a late adopter has way more advantages that being on the cutting edge. As a consultant writing code for others, I stick to old and proven tech. I feel like this confers quite a few advantages. 

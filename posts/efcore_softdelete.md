@@ -2,6 +2,7 @@
 title: 'EF Core Soft-Delete'
 author: 'Michael Davis'
 date: '2019-12-04'
+published: true
 # hero_image: ../static/.jpg
 ---
 

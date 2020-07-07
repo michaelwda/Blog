@@ -12,9 +12,10 @@ const getPosts = (context) => {
       frontmatter: document.data,
       markdownBody: document.content,
       slug,
-      date: document.data.date
+      date: document.data.date,
+      published: document.data.published
     }
-  }).sort((b, a) => (a.date > b.date && 1) || (a.date === b.date ? 0 : -1))
+  }).filter(post=>post.published).sort((b, a) => (a.date > b.date && 1) || (a.date === b.date ? 0 : -1))
   return data
 }
 

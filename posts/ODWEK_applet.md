@@ -2,6 +2,7 @@
 title: 'C# replacement of ODWEK applet'
 author: 'Michael Davis'
 date: '2017-06-15'
+published: true
 # hero_image: ../static/.jpg
 ---
 # NOTE: I've recently coded this up the "correct" way using the Java Api. See here: [ODWEK Middleware with Spring Boot](ODWEK_middleware_springboot)

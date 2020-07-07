@@ -2,6 +2,7 @@
 title: 'Bash script to configure raspberry pi for kiosk mode'
 author: 'Michael Davis'
 date: '2018-03-07'
+published: true
 # hero_image: ../static/.jpg
 ---
 

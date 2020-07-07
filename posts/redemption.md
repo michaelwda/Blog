@@ -2,6 +2,7 @@
 title: 'How to batch change the date received on Office 365 mail'
 author: 'Michael Davis'
 date: '2017-07-12'
+published: true
 # hero_image: ../static/.jpg
 ---
 Sometimes bad things happen to good mailboxes. We were recently doing a fairly standard mailbox migration from Google Apps to Office 365. This mailbox in particular was about 30 GB and had mail going back 20+ years. It also had some previous migration history.

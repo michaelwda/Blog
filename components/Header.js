@@ -11,6 +11,9 @@ export default function Header() {
         <Link href="/about">
           <a>About</a>
         </Link>
+        <Link href="/projects">
+          <a>Projects</a>
+        </Link>
       </nav>
     </header>    
     <style jsx>{`
@@ -29,8 +32,8 @@ export default function Header() {
           font-size: 1.3rem;
         }
         nav a {
-          margin-right: 20px;
-          color: #00a395;
+          margin-right: 50px;
+          color: rgb(83, 126, 162);
           text-decoration: none;
         }
         nav a:hover {

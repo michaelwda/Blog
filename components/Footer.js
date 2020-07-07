@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <>
       <footer>
-            Michael Davis {new Date().getFullYear()}
+            Michael Davis - <a href='https://www.michaelwda.com'>michaelwda.com</a> - {new Date().getFullYear()}
       </footer>
       <style jsx>{`
         footer {
@@ -15,9 +15,9 @@ export default function Header() {
           justify-content: center;
           align-items: center;
         }
-        footer img {
-            padding: 0 5px;
-            height: 1rem;
+        footer a {
+            margin-right: 10px;
+            margin-left: 10px;
         }
       `}</style>
   </>

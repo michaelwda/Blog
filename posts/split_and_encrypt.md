@@ -2,6 +2,7 @@
 title: 'Split And Encrypt PDF'
 author: 'Michael Davis'
 date: '2017-07-09'
+published: true
 # hero_image: ../static/.jpg
 ---
 # Why

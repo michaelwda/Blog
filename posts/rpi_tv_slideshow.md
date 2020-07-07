@@ -2,6 +2,7 @@
 title: 'Raspberry Pi for TV Slideshow'
 author: 'Michael Davis'
 date: '2018-01-05'
+published: true
 # hero_image: ../static/.jpg
 ---
 

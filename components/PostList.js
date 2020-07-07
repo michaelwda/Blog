@@ -12,10 +12,10 @@ export default function PostList({ posts }) {
           posts.map((post) => {
             return (
               <li key={post.slug}>
-                <date>
+                <div className="postDate">
                   {post.date}
-                </date>
-                <div>
+                </div>
+                <div className="postBody">
                   <Link href={{ pathname: `/post/${post.slug}` }}>
                     <a>{post?.frontmatter?.title}</a>
                   </Link>
@@ -28,22 +28,25 @@ export default function PostList({ posts }) {
     </div>
     <style jsx>{`
          ul {
-          list-style-type: none;
+          list-style-type: none;          
         }        
         li {
           display: flex;
           align-items: flex-start;
           background: #FFF;
           padding: 1rem;
-          border: 1px dashed black;
-          margin: 0 0 1rem 0;
+          border-bottom: 1px dashed black;
+          margin: 0 0 1rem 0;          
         }
-        li > date {
-          width: 100px;
+        li > .postDate {
+          width: 150px;
           margin: 0 1rem 0 0;
+          font-size: 1rem;
+          font-style: italic
         }
-        li > div {
+        li > .postBody {
           flex: 1;
+          align-items: flex-end;
         }
         
         
