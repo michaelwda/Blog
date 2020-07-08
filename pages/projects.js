@@ -243,20 +243,20 @@ const About = ({ title, description, ...props }) => {
         }
 
         .projectTitle{
-          font-weight: 800;
+          font-weight: bold;
           margin: 0;
           padding: 0;          
         }
         .projectClient{
-          font-weight: 400;
+          font-weight: bold;
           margin: 0;
           padding: 0;          
         }
         .projectTimeline{
-          font-weight: 400;
+          font-weight: bold;
           margin: 0;
           padding: 0;        
-          font-style: italic
+          
         }
         
       `}</style>
