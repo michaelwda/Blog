@@ -16,7 +16,7 @@ export default function PostList({ posts }) {
                   {post.date}
                 </div>
                 <div className="postBody">
-                  <Link href="/post/[slug]" as={`/post/${post.slug}`}>
+                  <Link href="/post/[postname]" as={`/post/${post.slug}`}>
                     <a>{post?.frontmatter?.title}</a>
                   </Link>
                 </div>
