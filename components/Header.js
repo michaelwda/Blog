@@ -14,6 +14,9 @@ export default function Header() {
         <Link href="/projects">
           <a>Projects</a>
         </Link>
+        <Link href="/static/Resume.pdf" as="/static/Resume.pdf">
+          <a>Resume</a>
+        </Link>
       </nav>
     </header>
     <style jsx>{`
@@ -21,15 +24,18 @@ export default function Header() {
           width: 100%;
           height: 100px;
           border-bottom: 1px solid #eaeaea;
-          display: flex;
+          display: flex;      
           justify-content: center;
           align-items: center;
         }
         nav {
-          width: calc(100% - 40px);
+          width: 100%;
           max-width: 1200px;
           font-weight: bold;
           font-size: 1.3rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
         nav a {
           margin-right: 30px;
@@ -38,6 +44,16 @@ export default function Header() {
         }
         nav a:hover {
           text-decoration: underline;
+        }
+
+        @media(max-width:500px){
+          nav {           
+            flex-direction:column;
+          }
+          header {
+            padding-top:1rem;
+            padding-bottom: 1rem;
+          }
         }
     `}
     </style>

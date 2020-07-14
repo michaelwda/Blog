@@ -20,8 +20,7 @@ export default function Header() {
             margin-right: 10px;
             margin-left: 10px;
         }
-        .myname{
-        }
+        
         @media(max-width:600px){
           footer {
             flex-direction:column;
