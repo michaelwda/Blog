@@ -112,6 +112,6 @@ If you're trying to replay an extended scancode via sendinput, you have to pass 
         }
 ```
 
-I legit, couldn't find this document ANYWHERE except in a footnote of an image in some old documentation. Maybe it's in some manuals somewhere, but I had the hardest time figuring it out.
+I couldn't find this documented ANYWHERE except in a footnote of an image in some scanned documentation. Maybe it's in some manuals somewhere, but I had the hardest time figuring it out.
 
 At some point I'm going to reboot and completely rewrite this project, especially now that C# has traits :)
